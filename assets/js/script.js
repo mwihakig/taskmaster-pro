@@ -79,6 +79,9 @@ $("#task-form-modal .btn-primary").click(function() {
     });
 
     saveTasks();
+    $(".list-group").on("click", "p", function() {
+      console.log(this);
+});
   }
 });
 
@@ -95,3 +98,4 @@ $("#remove-tasks").on("click", function() {
 loadTasks();
 
 
+x``
