@@ -1,0 +1,43 @@
+:root {
+    --prim-color: aliceblue;
+}
+
+* {
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.site-logo {
+    padding-left: 3rem;
+}
+
+.search-btn button {
+    width: 100%;
+}
+
+.hero-foot a,
+.is-active {
+    color: white;
+}
+
+.navbar-dropdown {
+    min-width: 30% !important;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 38px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 0;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}

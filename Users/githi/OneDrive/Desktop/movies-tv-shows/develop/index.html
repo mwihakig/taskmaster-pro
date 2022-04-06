@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Bulma -->
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- stylesheet -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+
+    <title>Movies & Tv Shows List</title>
+</head>
+
+<body>
+    <!-- NAV-BAR -->
+    <nav class="level">
+        <div class="site-logo">
+            <p class="level-item has-text-centered">
+                <img src="./assets/img/site-logo.png" width="190" height="38">
+            </p>
+        </div>
+
+        <div class="columns">
+            <div class="column is-half block"></div>
+            <div class="column is-half block"></div>
+
+            <div class="column is-6">
+                <div class="level-item nav-movie">
+                    <div class="navbar-item level-item has-dropdown is-hoverable ">
+                        <a class="link is-info is-size-3">Movies
+                                <span class="material-icons">movie</span></a>
+                        <div class="navbar-dropdown ">
+                            <a class="navbar-item is-size-4 movies-btn" data-value="Top250Movies">
+                                    Top 10 Movies
+                                  </a>
+                            <a class="navbar-item is-size-4 movies-btn" data-value="MostPopularMoviess">
+                                    Most Popular Movies
+                                  </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="column is-6">
+                <div class="level-item nav-tv">
+                    <div class="navbar-item level-item has-dropdown is-hoverable ">
+                        <a class="link is-info is-size-3">TV Shows
+                    <span class="material-icons">smart_display</span></a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item is-size-4 tv-show-btn" id="1" data-value="Top250TVs">
+                        Top 10 TVs
+                      </a>
+                            <a class="navbar-item is-size-4 tv-show-btn" id="2" data-value="MostPopularTVs">
+                        Most Popular TVs
+                      </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+        </p>
+        </p>
+    </nav>
+    <!-- END OF NAV-BAR -->
+
+    <section class="hero is-link">
+        <div class="hero-body">
+            <div class="columns is-desktop">
+                <!-- search section -->
+                <div class="column is-one-quarter has-background-grey-dark is-medium">
+                    <div class="bd-notification search-content pt-4">
+
+                        <div class="field">
+                            <label class="label has-text-white pl-5 is-size-4 ">Search by Title:</label>
+                            <div class="field ">
+                                <div class="control pl-5 ">
+                                    <input class="input is-rounded is-medium " type="text " placeholder="Enter a title ">
+                                    <div class="search-btn">
+                                        <button class="button mt-3 is-success is-medium is-rounded" id="search-btn">Search</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-1">placeholder</div>
+
+                <!-- Show listings -->
+                <div class="column has-background-grey-dark">
+                    <div class="show-listings-header is-size-3">
+                        <div class="p-title has-text-centered"></div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- stream content -->
+            <div class="columns is-desktop">
+                <div class="column is-one-quarter has-background-warning"></div>
+                <div class="column is-1 "></div>
+                <div class="column has-background-danger">Stream Section</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot column is-11 is-offset-1">
+        <nav class="tabs ">
+            <div class="container has-background-grey-dark">
+                <ul>
+                    <li class="is-active ">copyright© 2022: Web Dev Corp.&nbsp</li>
+                    <li>Developers:</li>
+                    <li><a>Github profile#1</a></li>
+                    <li><a>Github profile#2</a></li>
+                    <li><a>Github profile#3</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </section>
+
+    <script defer src="./assets/env/config.js "></script>
+    <script defer src="./assets/js/javascript.js "></script>
+
+</body>
+
+</html>
