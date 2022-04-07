@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <!-- stylesheet -->
     <link href="./assets/css/style.css" rel="stylesheet">
 
@@ -73,9 +74,9 @@
 
     <section class="hero is-link">
         <div class="hero-body">
-            <div class="columns is-desktop">
+            <div class="columns is-rest is-desktop">
                 <!-- search section -->
-                <div class="column is-one-quarter has-background-grey-dark is-medium">
+                <div class="column is-rest search-wrapper is-one-quarter has-background-grey-dark is-medium">
                     <div class="bd-notification search-content pt-4">
 
                         <div class="field">
@@ -92,16 +93,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-1">placeholder</div>
+                <div class="column is-1"></div>
 
                 <!-- Show listings -->
-                <div class="column has-background-grey-dark">
-                    <div class="show-listings-header is-size-3">
+                <div class="column">
+                    <div class="show-listings-header is-size-2">
                         <div class="p-title has-text-centered"></div>
-
-
                     </div>
-
                 </div>
             </div>
 
@@ -110,7 +108,19 @@
                 <div class="column is-one-quarter has-background-warning"></div>
                 <div class="column is-1 "></div>
                 <div class="column has-background-danger">Stream Section</div>
+
+                <a href="https://netflix.com" class="button">Netflix</a>
+                <a href="https://hulu.com" class="button"> Hulu</a>
+                <a href="https://www.disneyplus.com/en-ca" class="button">Disney</a>
+                <a href="https://www.primevideo.com/" class="button">Prime Video</a>
+
+
+
+                <button class="modal-close is-large" aria-label="close"></button>
             </div>
+
+        </div>
+        </div>
         </div>
     </section>
 
@@ -130,9 +140,22 @@
     </div>
     </section>
 
+
+    <div id="modal-js" class="modal">
+        <div class="modal-background"></div>
+
+        <div class="modal-content">
+            <div class="box-info">
+
+                <!-- Your content -->
+            </div>
+        </div>
+    </div>
+
+
+
     <script defer src="./assets/env/config.js "></script>
     <script defer src="./assets/js/javascript.js "></script>
-
 </body>
 
 </html>
