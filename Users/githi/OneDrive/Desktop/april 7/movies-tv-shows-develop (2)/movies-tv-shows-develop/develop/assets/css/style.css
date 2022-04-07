@@ -1,0 +1,148 @@
+        @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Sue+Ellen+Francisco&display=swap');
+         :root {
+            --prim-color: aliceblue;
+            --panel-color: #2e292a;
+        }
+        
+        * {
+            margin-bottom: 0;
+            margin: 0;
+            padding: 0;
+            top: 0;
+            box-sizing: border-box;
+        }
+        
+        .site-logo {
+            padding-left: 3rem;
+        }
+        
+        .search-btn button {
+            width: 100%;
+        }
+        
+        .navbar-dropdown {
+            min-width: 30% !important;
+        }
+        
+        .p-title {
+            padding-top: 2rem;
+            max-width: auto;
+            font-family: 'Calistoga', cursive;
+            border-radius: 2rem 2rem 0 0;
+        }
+        /* show list */
+        
+        .show-list {
+            padding: 2rem .5rem 2rem .5rem;
+            border-radius: 2rem 2rem 0 0;
+            background-color: #2e292a;
+        }
+        /* poster */
+        
+        .show-posters {
+            margin: .5rem;
+            border-radius: .5rem;
+            border: .3rem solid;
+            border-color: #302d2d;
+            max-width: 200px;
+            box-shadow: rgba(229, 233, 235, 0.871) 0px 1px 2px 0px, rgb(228, 233, 237) 0px 2px 6px 2px;
+        }
+        
+        .poster {
+            background-color: aliceblue;
+        }
+        
+        .poster:hover {
+            cursor: pointer;
+        }
+        /* more info modal */
+        
+        .more-info {
+            font-size: 20px;
+            display: grid;
+            min-height: 200px;
+            padding: 1.5rem;
+            border-radius: .5rem;
+            padding: 2rem;
+            background-color: rgb(255, 255, 255);
+            color: var(--panel-color);
+        }
+        
+        .search-wrapper {
+            border-radius: .5rem;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            padding-right: 2rem;
+            background-color: var(--panel-color);
+        }
+        /* arrow icons */
+        
+        .more-icon {
+            border-radius: 0 0 .5rem .5rem;
+            background-color: var(--panel-color)!important;
+        }
+        
+        .icon-left:hover {
+            color: rgb(25, 213, 8);
+            transform: translateX(-10px);
+        }
+        
+        .icon-right:hover {
+            color: rgb(25, 213, 8);
+            transform: translateX(10px);
+        }
+        
+        .more-icon span {
+            position: relative;
+            margin-left: 5rem;
+            cursor: pointer;
+        }
+        
+        .more-icon span {
+            position: relative;
+            margin-left: 5rem;
+            align-content: center;
+            cursor: pointer;
+        }
+        
+        .text p {
+            font-size: 15px;
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 38px;
+            /* Preferred icon size */
+            display: inline-block;
+            line-height: 0;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        
+        .hero-foot .tabs {
+            background-color: #302d2d;
+        }
+        
+        .hero-foot .container {
+            color: rgb(27, 237, 209);
+        }
+        
+        .hero-foot ul a:hover {
+            color: rgb(79, 229, 29);
+        }
+        
+        .hero-foot a,
+        .is-active {
+            color: white;
+        }
+        
+        .field .select {
+            margin-top: 2rem;
+        }
+        
+        @media screen and (max-width: 600px) {}
